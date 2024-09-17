@@ -7,7 +7,7 @@ import Footer from "@/Components/Footer/Footer";
 const LoginPage = () => {
   return (
     <div>
-      <Header logo={"Curiers App"} />
+      <Header logo={"Curiers App"} isUserLoggedIn={false} />
       <h1 style={{ textAlign: "center", margin: "5rem" }}>
         Login to Curiers App
       </h1>
