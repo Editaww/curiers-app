@@ -32,5 +32,17 @@
   background-color: rgb(216, 212, 212);
   color: black;
   border-radius: 7px;
-  height: 40px;
+  height: 30px;
+}
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+  .header button {
+    font-size: small;
+    height: 30px;
+  }
+  .header ul li {
+    gap: 1rem;
+  }
 }
