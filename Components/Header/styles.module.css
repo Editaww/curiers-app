@@ -1,0 +1,36 @@
+.header {
+  height: 100px;
+  background-color: rgb(91, 91, 91);
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-size: xx-large;
+  color: white;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.header ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.header button {
+  font-size: medium;
+  background-color: rgb(216, 212, 212);
+  color: black;
+  border-radius: 7px;
+  height: 40px;
+}
